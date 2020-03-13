@@ -1,0 +1,362 @@
+/*--------------
+    INDEX PAGE
+  ----------------
+ */
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+
+
+}
+.header {
+    background-color: #285928;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+}
+
+.menu {
+    float: right;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+.container
+{
+    margin: 10%;
+
+}
+li {
+    display: inline-block;
+    list-style: none;
+    color: white;
+    margin-right: 100px;
+    margin-top: -50px;
+}
+
+.banner a{
+    text-decoration: none;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    margin-left: 5px;
+    color: #285928;
+}
+
+
+.menu-link
+{
+    color: white;
+
+}
+
+.menu a:link
+{
+    color:white;
+    text-decoration: none;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Century Gothic";
+    font-size: 15px;
+
+}
+.menu a:visited
+{
+    color:white;
+
+}
+.menu a:hover
+{
+    border-bottom: #285928;
+    border-width: medium;
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+    transition: border 0.2s;
+    transition-timing-function: ease-in-out;
+
+
+}
+.menu a:active
+{
+
+
+}
+
+.menu-bar{
+    background-color: white;
+    width: 80px;
+    height: 3px;
+    position: absolute;
+    left: 665px;
+    top: 44px;
+    visibility: hidden;
+}
+
+h1{
+    font-family: "Arial Black";
+    font-weight: 900;
+    font-stretch: condensed;
+    color: #285928;
+}
+
+#banner-text{
+    height: 90px;
+    width: 500px;
+    font-family: "Century Gothic";
+    margin-top: -20px;
+}
+
+h2{
+    color: #fcfc07;
+    font-family: "arial";
+    margin-left: 800px;
+    margin-top: -20px;
+    margin-bottom: -100px;
+    padding-bottom: 0;
+}
+
+#sub-banner-text{
+    width: 700px;
+    height: 150px;
+    font-family: "Century Gothic";
+    margin-left: 250px;
+    margin-top: -404px;
+    padding-top: 0;
+    color: white;
+
+}
+
+#head{
+
+}
+
+.products{
+    margin-top: 80px;
+
+}
+
+.back-rec{
+    background-color: gray;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 170px;
+}
+
+#rec{
+    clip-path: polygon(0 30%, 100% 0, 100% 70%, 0 100%);
+    padding-top: 50px;
+    z-index: -1;
+    opacity: .8;
+}
+
+#sign-in{
+    padding: 10px;
+    width: 70px;
+    color: #285928;
+    border-style: solid;
+    border-width: medium;
+    border-color: #285928;
+}
+
+.footer{
+    background-color: gray;
+    width: 100%;
+    height: 150px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-family: "Century Gothic";
+    font-size: small;
+}
+
+#copyright{
+    margin-left: 500px;
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 15px;
+    margin-top: 700px;
+}
+
+.flex-contain{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item{
+    background-color: #285928;
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    padding: 40px;
+    box-shadow: 5px 10px 10px grey;
+    color: white;
+}
+
+.img{
+    margin-left: 13px;
+}
+
+h3{
+    margin-left: 50px;
+}
+
+.contact{
+    background-color: red;
+    height: 50px;
+    width: 250px;
+    margin-left: 40px;
+}
+
+
+/** sign up **/
+/**------------------sign up--------------**/
+
+.sign-up{
+    background-color: #285928;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+
+}
+
+/**--------------------farm-page--------------------**/
+/**--------------------farm-page--------------------**/
+/**--------------------farm-page--------------------**/
+
+
+
+
+
+
+
+/*----------------
+     LOGIN PAGE
+  ------------------
+  */
+
+.login {
+    background-color: #285928;
+    width: 290px;
+    height: 400px;
+    padding: 0px 20px;
+    text-align: left;
+    border-radius: 30px;
+    margin-top: 150px;
+    margin-left: 450px;
+    opacity: 66%;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: larger;
+}
+#login-text{
+    margin-left: 30px;
+    padding-top: 40px;
+}
+
+#sign-up {
+    padding-top: 230px;
+    margin: -74px;
+    font-family: "Century Gothic";
+    font-size: x-small;
+    padding-left: 139px;
+    color: #FCFC07;
+
+}
+
+#sign-up a{
+
+    color: white;
+    text-decoration: none;
+}
+
+
+#forgot-password {
+    margin: 20px;
+    padding-left: 65px;
+}
+
+#forgot-password a{
+    font-size: small;
+    color: white;
+    text-decoration: none;
+
+}
+
+#username{
+ border-top:none;
+    border-right: none;
+    border-left: none;
+    border-color: white;
+    border-width: thin;
+    background-color: transparent;
+    margin-left: 40px;
+    padding-right: 50px;
+    padding-top: 40px;
+    color: white;
+    font-family: "Century Gothic";
+}
+#password{
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    border-color: white;
+    border-width: thin;
+    background-color: transparent;
+    margin-left: 40px;
+    padding-right: 50px;
+    padding-top: 40px;
+    color: white;
+    font-family: "Century Gothic";
+}
+
+#submit{
+    border-radius: 15px;
+    width: 230px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border: transparent;
+    position: absolute;
+    top: 404px;
+    left: 500px;
+}
+
+/*-----------------------
+       ABOUT PAGE
+  -----------------------
+ */
+.about {
+    background-color: #285928;
+    width: 290px;
+    height: 750px;
+    padding: 0px 20px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 150px;
+    margin-left: 450px;
+    opacity: 66%;
+    font-family: "Century Gothic";
+    color: white;
+    font-size: larger;
+    padding-top: 10px;
+}
+
+
+
+
+
+

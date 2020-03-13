@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Farm Meet Web Application</title>
+    <link rel ="stylesheet" href = "style.css">
+    <script type="text/javascript" >
+
+
+    function login_data_check() {
+
+        var user = document.getElementById('username').value;
+        var pass = document.getElementById('password').value;
+        if (user == "" || pass == "") {
+            alert('please fill in all fields');
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+        function login_data(){
+        var x ;
+        var y = 1234;
+       var z = 'aaa';
+        x = document.getElementById('password').value;
+        var s =document.getElementById('username').value;
+
+
+        if(x == y &&  s == z){
+            //alert('correct password');
+            return true;
+        }else{
+            alert('incorrect username or password');
+            return false;
+        }
+
+    }
+
+
+
+
+    </script>
+</head>
+<body >
+<div id="header-section" class="header">
+    <div class="menu">
+        <ul>
+            <li> <a class="menu-link" href="index.html">Home</a></li>
+            <li> <a class="menu-link" href="connect.html">Connect</a></li>
+            <li> <a class="menu-link" href="contact.html">Contact</a></li>
+            <li> <a class="menu-link" href="about.html">About</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="login">
+
+    <div>
+    <p id ="login-text">LOGIN</p>
+
+</div>
+
+        <form action="index.html" method="post" onsubmit=" return login_data() ;"  >
+            <input type="text" name="username" placeholder="username" id="username" />
+            <input type="password" name="password" placeholder="password" id="password" />
+            <input type="submit" value="Login" id="submit" onclick=" return login_data_check();"  />
+
+        </form>
+
+
+    <div>
+        <P
+                id="sign-up">Don't have an account...<a href="sign-up.html">Sign up</a>
+        </P>
+        <P id="forgot-password"><a href="forgot-password.html">Forgot Password?</a> </P>
+    </div>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
